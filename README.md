@@ -7,3 +7,6 @@ I created this script to install the trend micro endpoint sensor through a jamf 
 - Create a new configuration profile as per Trend's documentation [here](https://success.trendmicro.com/dcx/s/solution/000292474?language=en_US&sfdcIFrameOrigin=null)
 - Upload the package and script to Jamf (Ensure the script is set to run AFTER other actions
 - Create a policy with both the script and package and push to endpoints
+
+# Location Services.sh
+This script checks the settings for your Macs location service settings and changes it to comply with Jamf Protect's CIS Level 2 Compliance Check.
